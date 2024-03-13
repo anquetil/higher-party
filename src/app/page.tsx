@@ -88,7 +88,7 @@ export default function Home() {
       <div className="text-6xl font-medium z-10">
         higher.
       </div>
-      <div className='text-gray-200'>
+      <div className='text-gray-200 z-10'>
         a community of optimists
       </div>
       <div className="flex flex-row z-10 gap-x-3 mt-8">
@@ -128,8 +128,12 @@ export default function Home() {
           </svg>
         </Link>
 
-
       </div>
+
+      <Link href='/buy' className='z-10 mt-4 cursor-pointer rounded px-4 py-2 bg-black font-semibold
+        bg-opacity-20 hover:bg-opacity-40 ease-in-out transition-all duration-300'>
+          Buy
+      </Link>
 
 
       <div className="arrow-container z-0">
