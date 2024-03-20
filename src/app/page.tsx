@@ -122,7 +122,7 @@ export default function Home() {
       </Link>
 
       <div className='z-10 opacity-70 mt-4 text-sm flex flex-col items-center'>
-        <div>100% fair launched via Tokepad</div>
+        <div>100% fair launched</div>
         <div>50% to LP, 50% to /higher community members.</div>
       </div>
 
