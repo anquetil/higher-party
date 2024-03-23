@@ -140,6 +140,18 @@ export default function Home() {
         <div>50% to LP, 50% to /higher community members.</div>
       </div>
 
+      <div className='z-10 flex flex-row mt-4 gap-x-2 text-sm'>
+        <Link className='underline cursor-pointer opacity-70 hover:opacity-85' target='_blank' href='https://drive.google.com/drive/folders/1FfeTbK3tvOWyInrAjg19CQNE3kpqaDMW?usp=sharing'>
+          Media & Assets
+        </Link>
+        <div className='opacity-70'>|</div>
+        <Link className='underline cursor-pointer opacity-70 hover:opacity-85' target="_blank" href='https://www.figma.com/file/mpQm1PzaBPZNCZ0SHS8PnH/higher-template?type=design&node-id=0%3A1&mode=design&t=vBzzx2ArTReZlVFI-1'>
+          Meme Template
+        </Link>
+      </div>
+
+
+
 
       <div className="arrow-container z-0">
         {
