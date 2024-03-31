@@ -47,17 +47,18 @@ export default function Home() {
             <path className='fill-white opacity-45 group-hover:opacity-80 ease-in-out' d="M372.544 593.009L162.366 303.693L502.445 414.2L372.544 456.404V593.009Z" />
           </svg>
         </Link>
-
-
-
-
-
       </div>
 
-      <Link href='/buy' className='z-10 cursor-pointer rounded px-4 py-2 bg-black font-semibold
-        bg-opacity-20 hover:bg-opacity-40 ease-in-out transition-all duration-300'>
-          Buy
-      </Link>
+      <div className="flex flex-row">
+        <Link href='/buy' className='z-10 cursor-pointer rounded px-4 py-2 mx-4 bg-black font-semibold
+          bg-opacity-20 hover:bg-opacity-40 ease-in-out transition-all duration-300'>
+            Buy
+        </Link>
+        <Link href='/collect' className='z-10 cursor-pointer rounded px-4 py-2 mx-4 bg-black font-semibold
+          bg-opacity-20 hover:bg-opacity-40 ease-in-out transition-all duration-300'>
+            Collect
+        </Link>
+      </div>
 
       <div className='z-10 opacity-70 mt-4 text-sm flex flex-col items-center'>
         <div>100% fair launched</div>
