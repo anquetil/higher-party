@@ -154,7 +154,7 @@ export default function MembershipButton() {
 
   if (hexToBigInt(delegate) !== BigInt(0)) {
     // The account is already playing.
-    if (playerRecord && Date.now() > playerRecord.expirationTime) {
+    if (playerRecord && Date.now() / 1000 > playerRecord.expirationTime) {
       return <ExtendMembershipButton account={account} />;
     }
 
