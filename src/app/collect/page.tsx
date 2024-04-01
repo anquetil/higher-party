@@ -4,6 +4,7 @@ import { animationDelay } from '../animation';
 import Image from 'next/image';
 import MembershipButton from '@/components/MembershipButton';
 import { Web3Provider } from '@/components/Web3Provider';
+import PieceList from '@/components/PieceList';
 
 
 export default function Home() {
@@ -28,16 +29,7 @@ export default function Home() {
           proceeds go to the <Link className='underline cursor-pointer opacity-70 hover:opacity-85' href={'https://base.party.app/party/0x8177b34687bc8b99c205e533ae7dd7c6c9d07a66'} target='_blank'>higher collective</Link>
         </div>
 
-        <div className='flex flex-col items-center mt-4'>
-          <Link href='#' className='z-10 cursor-pointer rounded px-4 py-2 bg-black font-semibold
-            bg-opacity-20 hover:bg-opacity-40 ease-in-out transition-all duration-300'>
-              Mint Piece #1
-          </Link>
-          <div className='z-10 opacity-70 text-sm text-center'>
-            52.72 ↑higher<br/>
-            to the collective
-          </div>
-        </div>
+        <PieceList />
 
         <div className='flex flex-col items-center mt-16'>
           <div className="flex flex-row">
