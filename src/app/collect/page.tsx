@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <Web3Provider>
       <main className="flex min-h-screen min-w-screen flex-col items-center justify-center bg-[#018A08] text-white">
-        <div className="flex flex-row mb-4">
+        <div className="flex flex-row flex-wrap justify-center mb-4">
           <Image src="/pantheon.jpeg" width="200" height="200" alt="pantheon with higher arrow" />
           <div className="text-6xl font-medium z-10 ml-4">
             higher<br/>
