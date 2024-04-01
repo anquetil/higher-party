@@ -34,7 +34,7 @@ export default function Home() {
         <div className='flex flex-col items-center mt-16'>
           <div className="flex flex-row">
             <MembershipButton />
-            <Link href='https://tally.xyz' className='z-10 cursor-pointer rounded px-4 py-2 mx-4 bg-black font-semibold
+            <Link href='https://www.tally.xyz/gov/higher-collectors-society' className='z-10 cursor-pointer rounded px-4 py-2 mx-4 bg-black font-semibold
               bg-opacity-20 hover:bg-opacity-40 ease-in-out transition-all duration-300'>
                 Propose a New Piece
             </Link>
@@ -42,6 +42,16 @@ export default function Home() {
           <div className='z-10 opacity-70 text-sm'>
             must mint 44.44 ↑higher to the collective each week to join
           </div>
+        </div>
+
+        <div className='z-10 flex flex-row mt-4 gap-x-2 text-sm'>
+          <Link className='underline cursor-pointer opacity-70 hover:opacity-85' target='_blank' href='https://www.tally.xyz/gov/higher-collectors-society/delegates'>
+            Member Directory
+          </Link>
+          <div className='opacity-70'>|</div>
+          <Link className='underline cursor-pointer opacity-70 hover:opacity-85' target="_blank" href='https://github.com/niran/larpcoin-toolkit/blob/main/evm/src/PieceCollector.sol'>
+            Smart Contract
+          </Link>
         </div>
 
         <div className="arrow-container z-0">
