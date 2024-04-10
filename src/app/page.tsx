@@ -1,6 +1,7 @@
+import Link from 'next/link'
+import Wordmark from './wordmark';
 
 const higherGreen = '#018A08'
-import Link from 'next/link'
 
 function animationDelay(i: number){
   const num = i + 2 // avoid 1 and 0
@@ -85,9 +86,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen min-w-screen flex-col items-center justify-center bg-[#018A08] text-white">
-      <div className="text-6xl font-medium z-10">
-        higher.
-      </div>
+      <Wordmark />
       <div className='text-gray-200 z-10'>
         a community of optimists on Base
       </div>
